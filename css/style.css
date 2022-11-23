@@ -1,0 +1,105 @@
+﻿body {
+    margin-top: -8px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 -10px;
+    list-style: none;
+    background-color: rgb(94, 94, 94);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 40px;
+    margin-left: -20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+}
+
+header {
+    background-color: rgb(127, 240, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+footer {
+    background-color: rgb(94, 94, 94);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 -10px;
+    margin-top: 10px;
+}
+
+.letraAzul {
+    color: rgb(35, 182, 231);
+}
+
+.imgCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.flexboxEjemplo {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-evenly;
+    color: rgb(7, 47, 248);
+    height: 100px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.articuloPrincipal {
+    display: flex;
+    margin: 10px;
+}
+
+.box {
+
+    width: 150px;
+    height: 150px;
+    border: 2px dashed;
+    color: palevioletred;
+
+}
+
+#boxAzul {
+    background-color: blue;
+    position: relative;
+    top:50px;
+    left: 50px;
+}
+
+#boxGris {
+    background-color: grey;
+}
+
+#boxRojo {
+    background-color: red;
+}
+
+.contenedorPrincipal {
+
+    border: 1px solid blue;
+}
